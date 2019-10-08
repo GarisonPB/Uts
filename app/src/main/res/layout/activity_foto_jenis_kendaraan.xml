@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@drawable/gambar3"
     tools:context=".FotoJenisKendaraan">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_marginTop="60dp"
         android:fontFamily="sans-serif-black"
         android:text="Civic Genio Tahun 1992"
-        android:textColor="@android:color/background_light"
+        android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"

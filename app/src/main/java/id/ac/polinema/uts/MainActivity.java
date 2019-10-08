@@ -10,7 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
 
-    Button biodataButton, spekButton, fotoButton;
+    Button biodataButton, spekButton, fotoButton, kegiatanButton;
 
 
     @Override
@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         biodataButton = findViewById(R.id.button);
         spekButton = findViewById(R.id.button2);
         fotoButton = findViewById(R.id.button3);
+        kegiatanButton = findViewById(R.id.button5);
 
         biodataButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,6 +43,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, FotoJenisKendaraan.class);
+                startActivity(i);
+            }
+        });
+
+        kegiatanButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, kegiatankopdar.class);
                 startActivity(i);
             }
         });

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FotoJenisKendaraan"></activity>
+        <activity android:name=".kegiatankopdar"></activity>
+        <activity android:name=".FotoJenisKendaraan" />
         <activity android:name=".SpesifikasiKendaraan" />
         <activity android:name=".ActitvityBiodata" />
         <activity android:name=".MainActivity">

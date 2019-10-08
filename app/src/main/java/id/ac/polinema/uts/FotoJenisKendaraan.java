@@ -18,7 +18,6 @@ public class FotoJenisKendaraan extends AppCompatActivity {
 
         kembaliButton = findViewById(R.id.button7);
 
-
         kembaliButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
