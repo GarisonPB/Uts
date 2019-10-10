@@ -1,11 +1,15 @@
 package id.ac.polinema.uts;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import id.ac.polinema.uts.kegiatan_kopdar.Video1;
+import id.ac.polinema.uts.kegiatan_kopdar.Video2;
 
 public class kegiatankopdar extends AppCompatActivity {
 
@@ -26,4 +30,17 @@ public class kegiatankopdar extends AppCompatActivity {
             }
         });
     }
+
+    public void handlerVideo1(View view) {
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.video,new Video1());
+        fragmentTransaction.commit();
+    }
+
+    public void handlerVideo2(View view) {
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.video,new Video2());
+        fragmentTransaction.commit();
+    }
+
 }

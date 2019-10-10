@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,43 +7,106 @@
     android:background="@drawable/gambar3"
     tools:context=".FotoJenisKendaraan">
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="266dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="60dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Civic Genio Tahun 1992"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/wrap_content"
+        android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="360dp"
-        android:layout_height="234dp"
-        android:layout_marginBottom="304dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.549"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/hondacivic" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginRight="33dp"
+            android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="98dp"
-        android:layout_height="35dp"
-        android:layout_marginBottom="240dp"
-        android:background="@android:color/holo_red_dark"
-        android:fontFamily="sans-serif-black"
-        android:text="KEMBALI"
-        android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.089"
-        app:layout_constraintStart_toStartOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Honda Civic Estilo Tahun 1992"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+
+            <ImageView
+                android:layout_width="437dp"
+                android:layout_height="433dp"
+                android:src="@drawable/estilo6"
+                tools:layout_conversion_absoluteHeight="490dp"
+                tools:layout_conversion_absoluteWidth="416dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+            <ImageView
+                android:layout_width="437dp"
+                android:layout_height="433dp"
+                android:src="@drawable/estilo"
+                tools:layout_conversion_absoluteHeight="490dp"
+                tools:layout_conversion_absoluteWidth="416dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="126dp" />
+
+            <ImageView
+                android:layout_width="437dp"
+                android:layout_height="433dp"
+                android:src="@drawable/estilo5"
+                tools:layout_conversion_absoluteHeight="490dp"
+                tools:layout_editor_absoluteY="616dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_conversion_absoluteWidth="416dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/estilo1"
+                tools:layout_conversion_absoluteHeight="490dp"
+                tools:layout_editor_absoluteY="1106dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_conversion_absoluteWidth="416dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/estilo7"
+                tools:layout_conversion_absoluteHeight="490dp"
+                tools:layout_editor_absoluteY="1595dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_conversion_absoluteWidth="416dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="98dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="653dp"
+                android:background="@android:color/holo_red_dark"
+                android:fontFamily="sans-serif-black"
+                android:text="KEMBALI"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
