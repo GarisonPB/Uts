@@ -2,9 +2,12 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/</item>
+        <item>@font/audiowide</item>
         <item>@font/averia_serif_libre_italic</item>
         <item>@font/convergence</item>
+        <item>@font/faster_one</item>
         <item>@font/frank_ruhl_libre_light</item>
+        <item>@font/holtwood_one_sc</item>
         <item>@font/merriweather_light</item>
     </array>
 </resources>

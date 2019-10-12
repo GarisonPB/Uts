@@ -1,6 +1,7 @@
 package id.ac.polinema.uts.kegiatan_kopdar;
 
 
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -8,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.MediaController;
 import android.widget.VideoView;
 
 import id.ac.polinema.uts.R;
@@ -29,7 +31,17 @@ public class Video2 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_video2, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_video2, container, false);
+        MediaController mc= new MediaController(getActivity());
+
+        VideoView view = (VideoView)rootView.findViewById(R.id.videoView);
+        String path = "android.resource://" + getActivity().getPackageName() + "/" + R.raw.video2;
+        view.setVideoURI(Uri.parse(path));
+        view.setMediaController(mc);
+        view.setZOrderOnTop(true);
+        view.start();
+
+        return rootView;
     }
 
 }

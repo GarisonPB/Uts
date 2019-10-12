@@ -53,7 +53,7 @@
 
             <ImageView
                 android:layout_width="437dp"
-                android:layout_height="433dp"
+                android:layout_height="292dp"
                 android:src="@drawable/estilo6"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
@@ -62,7 +62,7 @@
 
             <ImageView
                 android:layout_width="437dp"
-                android:layout_height="433dp"
+                android:layout_height="363dp"
                 android:src="@drawable/estilo"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
@@ -71,20 +71,21 @@
 
             <ImageView
                 android:layout_width="437dp"
-                android:layout_height="433dp"
+                android:layout_height="258dp"
                 android:src="@drawable/estilo5"
                 tools:layout_conversion_absoluteHeight="490dp"
-                tools:layout_editor_absoluteY="616dp"
+                tools:layout_conversion_absoluteWidth="416dp"
                 tools:layout_editor_absoluteX="0dp"
-                tools:layout_conversion_absoluteWidth="416dp" />
+                tools:layout_editor_absoluteY="616dp" />
+
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="363dp"
                 android:src="@drawable/estilo1"
                 tools:layout_conversion_absoluteHeight="490dp"
-                tools:layout_editor_absoluteY="1106dp"
+                tools:layout_conversion_absoluteWidth="416dp"
                 tools:layout_editor_absoluteX="0dp"
-                tools:layout_conversion_absoluteWidth="416dp" />
+                tools:layout_editor_absoluteY="1106dp" />
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
