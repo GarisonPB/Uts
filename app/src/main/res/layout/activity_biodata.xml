@@ -86,15 +86,4 @@
         app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="134dp"
-        android:layout_height="125dp"
-        android:layout_marginBottom="368dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.942"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/bayu" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

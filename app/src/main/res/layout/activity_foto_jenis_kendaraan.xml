@@ -8,23 +8,33 @@
     tools:context=".FotoJenisKendaraan">
 
     <RelativeLayout
-        android:layout_width="match_parent"
         android:id="@+id/wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="562dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginStart="47dp"
-            android:layout_marginLeft="47dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="12dp"
-            android:layout_marginEnd="33dp"
-            android:layout_marginRight="33dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
             android:orientation="horizontal">
 
             <TextView
@@ -32,13 +42,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
                 android:layout_marginTop="16dp"
-                android:fontFamily="sans-serif-black"
-                android:text="Honda Civic Estilo Tahun 1992"
+                android:fontFamily="@font/audiowide"
+                android:text="Civic Estilo Tahun 1992"
                 android:textColor="@android:color/black"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_conversion_absoluteHeight="68dp"
+                tools:layout_conversion_absoluteWidth="511dp" />
 
-        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </RelativeLayout>
+
     <ScrollView
         android:layout_below="@+id/wrap_content"
         android:layout_width="match_parent"
@@ -50,10 +66,9 @@
             android:orientation="vertical"
             android:id="@+id/linearLayout">
 
-
             <ImageView
-                android:layout_width="437dp"
-                android:layout_height="292dp"
+                android:layout_width="442dp"
+                android:layout_height="333dp"
                 android:src="@drawable/estilo6"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
@@ -62,7 +77,7 @@
 
             <ImageView
                 android:layout_width="437dp"
-                android:layout_height="363dp"
+                android:layout_height="307dp"
                 android:src="@drawable/estilo"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
@@ -70,30 +85,32 @@
                 tools:layout_editor_absoluteY="126dp" />
 
             <ImageView
-                android:layout_width="437dp"
-                android:layout_height="258dp"
+                android:layout_width="450dp"
+                android:layout_height="281dp"
                 android:src="@drawable/estilo5"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="616dp" />
 
+
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="363dp"
+                android:layout_width="381dp"
+                android:layout_height="293dp"
                 android:src="@drawable/estilo1"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="1106dp" />
+
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="430dp"
+                android:layout_height="328dp"
                 android:src="@drawable/estilo7"
                 tools:layout_conversion_absoluteHeight="490dp"
-                tools:layout_editor_absoluteY="1595dp"
+                tools:layout_conversion_absoluteWidth="416dp"
                 tools:layout_editor_absoluteX="0dp"
-                tools:layout_conversion_absoluteWidth="416dp" />
+                tools:layout_editor_absoluteY="1595dp" />
 
             <Button
                 android:id="@+id/button7"
@@ -106,7 +123,6 @@
                 android:text="KEMBALI"
                 android:textColor="@android:color/background_light"
                 android:textSize="18sp" />
-
         </LinearLayout>
     </ScrollView>
 

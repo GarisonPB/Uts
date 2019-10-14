@@ -50,5 +50,4 @@ public class Video1 extends Fragment {
 
     }
 
-
 }

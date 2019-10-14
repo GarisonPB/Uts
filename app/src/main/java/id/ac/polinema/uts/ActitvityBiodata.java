@@ -18,7 +18,6 @@ public class ActitvityBiodata extends AppCompatActivity {
 
         kembaliButton = findViewById(R.id.button9);
 
-
         kembaliButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -26,5 +25,6 @@ public class ActitvityBiodata extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
     }
 }
