@@ -51,7 +51,7 @@
         android:layout_width="110dp"
         android:layout_height="35dp"
         android:layout_marginBottom="80dp"
-        android:background="@color/colorAccent"
+        android:background="@android:color/holo_red_dark"
         android:fontFamily="sans-serif-black"
         android:text="KEMBALI"
         android:textColor="@color/colorWhite"

@@ -9,22 +9,44 @@ import android.widget.Button;
 
 public class ActitvityBiodata extends AppCompatActivity {
 
-    Button kembaliButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_biodata);
 
-        kembaliButton = findViewById(R.id.button9);
+    }
+    public void button9(View view) {
+        Intent i = new Intent(ActitvityBiodata.this, detailprofil1.class);
+        startActivity(i);
+    }
+    public void button11(View view) {
+        Intent i = new Intent(ActitvityBiodata.this, detailprofil2.class);
+        startActivity(i);
+    }
 
-        kembaliButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(ActitvityBiodata.this, MainActivity.class);
-                startActivity(i);
-            }
-        });
+    public void button12(View view) {
+        Intent i = new Intent(ActitvityBiodata.this, detailprofil3.class);
+        startActivity(i);
+    }
 
+    public void button13(View view) {
+        Intent i = new Intent(ActitvityBiodata.this, detailprofil4.class);
+        startActivity(i);
+    }
+
+    public void button14(View view) {
+        Intent i = new Intent(ActitvityBiodata.this, detailprofil5.class);
+        startActivity(i);
+    }
+
+    public void button15(View view) {
+        Intent i = new Intent(ActitvityBiodata.this, detailprofil6.class);
+        startActivity(i);
+    }
+
+    public void button18(View view) {
+        Intent i = new Intent(ActitvityBiodata.this, MainActivity.class);
+        startActivity(i);
     }
 }
