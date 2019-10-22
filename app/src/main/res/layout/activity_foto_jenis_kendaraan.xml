@@ -78,7 +78,7 @@
             <ImageView
                 android:layout_width="437dp"
                 android:layout_height="307dp"
-                android:src="@drawable/estilo"
+                android:src="@drawable/civicbiru"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
                 tools:layout_editor_absoluteX="0dp"
@@ -87,7 +87,7 @@
             <ImageView
                 android:layout_width="450dp"
                 android:layout_height="281dp"
-                android:src="@drawable/estilo5"
+                android:src="@drawable/civicmerah"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
                 tools:layout_editor_absoluteX="0dp"
@@ -95,9 +95,9 @@
 
 
             <ImageView
-                android:layout_width="381dp"
-                android:layout_height="293dp"
-                android:src="@drawable/estilo1"
+                android:layout_width="match_parent"
+                android:layout_height="289dp"
+                android:src="@drawable/civicputih"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
                 tools:layout_editor_absoluteX="0dp"
@@ -106,7 +106,7 @@
             <ImageView
                 android:layout_width="430dp"
                 android:layout_height="328dp"
-                android:src="@drawable/estilo7"
+                android:src="@drawable/civichitam"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
                 tools:layout_editor_absoluteX="0dp"
@@ -116,8 +116,9 @@
                 android:id="@+id/button7"
                 android:layout_width="98dp"
                 android:layout_height="38dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="0dp"
-                android:layout_marginBottom="653dp"
+                android:layout_marginBottom="40dp"
                 android:background="@android:color/holo_red_dark"
                 android:fontFamily="sans-serif-black"
                 android:text="KEMBALI"

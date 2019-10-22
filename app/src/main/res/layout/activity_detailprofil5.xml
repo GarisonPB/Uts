@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
     tools:context=".detailprofil5">
 
     <TextView
@@ -17,6 +18,7 @@
         android:layout_marginRight="180dp"
         android:fontFamily="@font/audiowide"
         android:text="Profil Anggota"
+        android:textColor="@color/colorWhite"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.475"
@@ -51,6 +53,7 @@
         android:layout_marginBottom="216dp"
         android:fontFamily="@font/convergence"
         android:text="Status : Terdaftar Sebagai Anggota Civic Community"
+        android:textColor="@color/colorWhite"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,8 +70,9 @@
         android:layout_marginEnd="159dp"
         android:layout_marginRight="159dp"
         android:background="@android:color/holo_red_dark"
-        android:text="KEMBALI"
+        android:fontFamily="sans-serif-black"
         android:onClick="button21"
+        android:text="KEMBALI"
         android:textColor="@color/colorWhite"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
