@@ -68,7 +68,7 @@
 
             <ImageView
                 android:layout_width="442dp"
-                android:layout_height="333dp"
+                android:layout_height="331dp"
                 android:src="@drawable/estilo6"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
@@ -77,7 +77,7 @@
 
             <ImageView
                 android:layout_width="437dp"
-                android:layout_height="307dp"
+                android:layout_height="255dp"
                 android:src="@drawable/civicbiru"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
@@ -86,7 +86,7 @@
 
             <ImageView
                 android:layout_width="450dp"
-                android:layout_height="281dp"
+                android:layout_height="268dp"
                 android:src="@drawable/civicmerah"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
@@ -96,7 +96,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="289dp"
+                android:layout_height="283dp"
                 android:src="@drawable/civicputih"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"
@@ -105,7 +105,7 @@
 
             <ImageView
                 android:layout_width="430dp"
-                android:layout_height="328dp"
+                android:layout_height="313dp"
                 android:src="@drawable/civichitam"
                 tools:layout_conversion_absoluteHeight="490dp"
                 tools:layout_conversion_absoluteWidth="416dp"

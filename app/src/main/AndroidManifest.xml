@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/civic"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".detailprofil6"></activity>
+        <activity android:name=".detailprofil6" />
         <activity android:name=".detailprofil5" />
         <activity android:name=".detailprofil4" />
         <activity android:name=".detailprofil3" />
@@ -21,11 +21,14 @@
         <activity android:name=".FotoJenisKendaraan" />
         <activity android:name=".SpesifikasiKendaraan" />
         <activity android:name=".ActitvityBiodata" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
         </activity>
 
         <meta-data
